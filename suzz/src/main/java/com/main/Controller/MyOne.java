@@ -1,0 +1,15 @@
+package com.main.Controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+@Controller
+public class MyOne {
+    @RequestMapping("/suzz")
+    @ResponseBody
+    public String SueRetrun() {
+
+        return "hello Word!";
+    }
+}
