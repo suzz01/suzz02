@@ -9,7 +9,7 @@ public class MyOne {
     @RequestMapping("/suzz")
     @ResponseBody
     public String SueRetrun() {
-
+        System.out.println("llllll");
         return "hello Word!";
     }
 }
